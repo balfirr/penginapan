@@ -132,7 +132,7 @@ class _LoginPageState extends State<LoginPage> {
       child: InkWell(
         child: const Text(
           "Registrasi",
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Colors.green),
         ),
         onTap: () {
           Navigator.push(context,
